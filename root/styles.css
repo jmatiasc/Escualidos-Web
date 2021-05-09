@@ -1,0 +1,911 @@
+/*--------------------------------NAVBAR*/
+.navbar{
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+
+body{
+    background-image: url("images/mosaico.png");
+    background-repeat: repeat; 
+    margin: 0px;
+    padding: 0px;
+}
+/*-----------------------*/
+.portada-esc{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: 12;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/fondo.JPG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: none;
+}
+
+.logo-esc img{
+    z-index: 11;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    width: 30%;
+    
+    animation: moverLoop 15s infinite;
+}
+
+.logo-esc img:hover{
+    transform: rotate(10deg);
+}
+
+
+@keyframes moverLoop {
+    
+    33%{transform: rotate(10deg);}
+    66%{transform: rotate(-10deg);}
+}
+
+
+@keyframes moverLogo {
+    0%{top: -65%;}
+    100%{top: 25%;left: 38%;}
+}
+
+
+.portada-esc .first-guitar img{
+    z-index: 11;
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    width: 7%;
+    animation: mover1Guitar 7s 1;
+}
+
+
+@keyframes mover1Guitar {
+    0%{bottom: -80%;}
+    100%{bottom: 0%;}
+}
+.portada-esc .camino img{
+    z-index: 10;  
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    bottom: -1%;
+    animation: moverCamino 1s 1;
+}
+
+
+@keyframes moverCamino {
+    0%{bottom: 130%;}
+    100%{bottom: -1%;}
+}
+.portada-esc .camino .singer{
+    z-index: 7;
+}
+
+.portada-esc .singer img{
+    position: absolute;
+    bottom: 0%;
+    left: 48%;
+    width: 10%;
+    animation: moverSing 3s 1;
+}
+
+
+@keyframes moverSing {
+    0%{bottom: -120%;}
+    100%{bottom: 0%;left: 48%;}
+}
+.portada-esc .moon{
+    z-index: 7;
+}
+
+.portada-esc .moon img{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 14%;
+    animation: moverMoon 5s 1;
+}
+
+
+@keyframes moverMoon {
+    0%{ top: 70%;
+        left: 110%;}
+    100%{ top: 30%;
+        left: 80%;}
+}
+
+
+.portada-esc .fish-space{
+    z-index: 9;
+}
+
+.portada-esc .fish-space img{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    width: 10%;
+    animation:moverFish 11s 1;
+}
+
+
+@keyframes moverFish {
+    0%{
+        left: 110%;}
+    100%{
+        left: 70%;}
+}
+.portada-esc .fito img{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 20%;
+    transition: 20s;
+    animation: volar 7s 1;
+}
+
+.portada-esc .fito img:active{
+    transform: translateX(1980px);
+    transform: translatey(-1980px);
+}
+
+
+@keyframes volar {
+    0%{top: -20%;left: -80%;}
+    100%{top: 10%;
+        left: 10%;}
+}
+
+
+/*--------------------------------------disc--------------------*/
+
+.disc{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 14;
+    height: 110vh;
+    width: 100%;
+    background-image: url("images/fondo-av.png");
+    overflow: hidden;
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: none;
+}
+
+.camino-av img{
+    width: 100%;
+    position: absolute;
+    top: -2px;
+}
+
+
+.cds{
+    
+    position: relative;
+    padding-top: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.disc-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(249, 35, 94, 0.8);
+    text-shadow: 2px 2px rgba(0, 17, 255, 0.8);
+    font-size: 5em;
+    padding-top: 20%;
+}
+
+.CD-cortejo{
+    position: relative; 
+    animation:moverCd1s 3s 1;
+}
+
+
+@keyframes moverCd1s {
+    0%{
+        bottom: -410%;}
+    100%{bottom: 0%;}
+}
+.CD-furor{
+    position: relative; 
+    animation:moverCd3s 6s 1;
+}
+
+@keyframes moverCd3s {
+    0%{
+        bottom: -410%;}
+    100%{bottom: 0%;}
+}
+
+.CD-nuevo{
+    position: relative; 
+    animation:moverCd2s 9s 1;
+}
+@keyframes moverCd2s {
+    0%{
+        bottom: -410%;}
+    100%{bottom: 0%;}
+}
+
+.CD-cortejo img, .CD-nuevo img, .CD-furor img{ 
+    
+    position: relative;  
+    z-index: 8;
+    width: 70%;
+    transition: 4s;
+}
+
+ .cd-rotate {
+    position: absolute;
+    bottom: 12%;
+    z-index: 7;
+    width: 100%;
+   
+}
+
+.listen-spotify {
+    position: absolute;
+    bottom: -20%;
+    z-index: 7;
+    width: 40%;
+}
+
+
+.CD-cortejo .cd-rotate img{
+    position: absolute;
+    bottom: 13%; 
+
+}
+
+.CD-cortejo .cd-tapa img, .CD-furor .cd-tapa img, .CD-nuevo .cd-tapa img{
+    box-shadow: 5px 5px 5px rgba(249, 35, 94, 0.2);
+} 
+
+
+
+.CD-cortejo .cd-tapa img:hover{
+    transform:translateY(40%);
+} 
+
+.CD-furor .cd-tapa img:hover{
+    transform:translateY(40%)
+} 
+
+.CD-nuevo .cd-tapa img:hover{
+    transform:translateY(40%)
+} 
+
+
+/*------------------------------videos----------------------------------------*/
+
+.videos{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 20;
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.videos .cartel-video{
+    background-image:url("images/aHOJA-PAPEL-SMALL.png");
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    border: none;
+    width: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    color: rgba(249, 35, 94, 0.8);
+    text-shadow: 2px 2px rgba(0, 17, 255, 0.8);
+    text-align: center;
+}
+
+.videos .padre{
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 5%;
+    width: 60%;
+    height: 90%;
+}
+.videos .padre .iframegalery{
+    width: 100%;
+    height: 100%;
+}
+
+.videos .lateral {
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 20%;
+    width: 40%;
+    height: 90%;
+}
+
+.videos .lateral .iframelateral{
+    width: 100%;
+    height: 100%;
+}
+
+.onevid1, .onevid2, .onevid3, .onevid4, .onevid5{
+    display: block;
+}
+
+#cajavideo{
+
+    position: relative;
+    overflow: hidden;
+}
+
+.imgvideo{
+    width: 100%;
+    height: 100%;
+
+}
+
+.capatransparente{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+/*------------------------------------fechas-----------------------------------*/
+.fechas{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 14;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/IMG-20201118-WA0029.png");
+    background-position: top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: none;
+    
+}
+
+.fechas .fechas-titulo{
+    padding-top: 3%;
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(249, 35, 94, 0.8);
+    text-shadow: 2px 2px rgba(0, 17, 255, 0.8);
+}
+
+
+.contenedor-calendario{
+    padding: 1%;
+}
+
+.card-fecha{ 
+    position: relative;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.card-fecha .boton-ticket{
+    opacity: 1;
+    position:absolute;
+    top: 25%;
+    left: 0%;
+}
+
+.card-fecha .boton-ticket:hover{
+    opacity: 1;
+}
+
+
+/*------------------------------------------------FOOTER--------------------------------*/
+
+footer{
+    font-size: 90%;
+    width: 100%;
+    padding: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(30,30,30,1);
+    
+}
+.logo-m14{
+    color:  rgba(70,70,70,1);
+}
+
+.logo-m14 span{
+    padding: 1%;
+}
+
+.logo-m14 img{
+    padding: 0%;
+    width: 7%;
+} 
+
+.logo-popArt img{
+    padding: 1%;
+    width: 15%;
+}
+.logo-crupier img{
+    padding: 1%;
+    width: 50%;
+}
+
+
+/*-------------------------------------------Acordes---------------------------------*/
+.body-chords{
+    background-image: url(images/fondo.png);
+}
+
+
+
+.body-chords,.nav-link {
+    color: white;
+}
+
+.hoja-chords{
+    background-image: url("images/mosaico.png");
+    background-repeat: repeat; 
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Mono","Courier New","Courier",monospace;
+}
+.nav-link{
+    color: rgba(249, 35, 94, 0.8);
+    text-shadow: 2px 2px rgba(0, 17, 255, 0.8);
+}
+
+.nav-link:hover{
+    color: white;
+    text-shadow: 2px 2px rgba(0, 17, 255, 0.8);
+}
+.cancion{
+    padding-top: 3%;
+}
+
+.cancion .titulo-cancion{
+    text-shadow: 2px 2px  rgba(249, 35, 94, 0.8);
+    padding-left: 6%;   
+    width: 100%;
+    font-size: 200%;
+}
+
+.cancion .img-chrods{
+    padding-left: 6%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.img-chrods img{
+    width: 5%;
+}
+
+.letra-cancion{
+    display: block;
+    font-family: "Roboto Mono","Courier New","Courier",monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+.letra-cancion b{
+    color: rgba(249, 35, 94, 0.8);
+    font-weight: 1200;
+}
+
+.video-cancion{
+    right: 18%;
+    top: 30%;
+    position: fixed;
+}
+
+.video-cancion iframe{
+    width: 100%;
+    height: 40vh;
+}
+
+
+/*--------------------------MEDIAQUEREES MOBILE--------------------------------------------------*/
+
+@media (max-width:450px)  {
+/*-------------------navbar----------------*/
+.navbar{
+    background-color: rgba(50, 50, 50, 1);
+}
+
+
+/*-----------------PORTADA------*/
+.portada-esc{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: 12;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/fondo.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: none;
+}
+
+.logo-esc img{
+    z-index: 11;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    
+}
+
+
+
+.portada-esc .moon img{
+    top: 80%;
+}
+
+
+@keyframes moverMoon {
+    0%{ top: 70%;
+        left: 110%;}
+    100%{ top: 80%;
+        left: 80%;}
+}
+
+.portada-esc .fish-space img{
+    top: 50%;
+}
+
+
+@keyframes moverFish {
+    0%{
+        left: 110%;}
+    100%{
+        left: 70%;}
+}
+.portada-esc .fito img{
+    top: 40%;
+}
+
+@keyframes volar {
+    0%{top: -20%;left: -80%;}
+    100%{  top: 40%;
+        left: 10%;}
+}
+
+
+
+    /*--------------------------------------disc--------------------*/
+
+.disc{ 
+    height: 40vh;
+ 
+}
+
+
+
+.disc-title{
+    font-size: 2em;
+}
+
+
+.listen-spotify {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    z-index: 20;
+    width: 40%;
+}
+
+.CD-cortejo .cd-tapa img, .CD-furor .cd-tapa img, .CD-nuevo .cd-tapa img{
+    box-shadow: 2px 2px 2px rgba(249, 35, 94, 0.2);
+} 
+
+
+
+/* --------------------------VIDEOS--------------------------------------- */
+.videos{
+    height: 100vh;
+}
+
+
+
+.videos .cartel-video{
+    background-image:url("images/aHOJA-PAPEL-SMALL.png");
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    border: none;
+    width: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: rgba(249, 35, 94, 0.8);
+    text-shadow: 2px 2px rgba(0, 17, 255, 0.8);
+    text-align: center;
+}
+
+.videos .padre{
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    height: 60%;
+}
+.videos .padre .iframegalery{
+    width: 100%;
+    height: 100%;
+}
+
+.videos .lateral {
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 0%;
+    width: 100%;
+    height: 90%;
+}
+
+.videos .lateral .iframelateral{
+    width: 100%;
+    height: 30%;
+}
+
+
+
+/*------------------------------------fechas-----------------------------------*/
+
+
+.fechas .fechas-titulo{
+    padding-top: 10%;
+    font-size: 2em;
+}
+
+.contenedor-calendario{
+    padding: 1%;
+}
+
+.card-fecha .boton-ticket{
+    opacity: 1;
+    width: 100%;
+    top: 25%;
+}
+
+.card-fecha .boton-ticket a{
+    
+    font-size: 0.5em;}
+
+.card-fecha .boton-ticket:hover{
+    opacity: 1;
+}
+
+.card-fecha{
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.5em;
+}
+
+footer{
+    font-size: 30%;   
+}
+
+}
+
+@media (min-width:451px) and (max-width:767px){
+
+/*-------------------navbar----------------*/
+.navbar{
+    background-color: rgba(50, 50, 50, 1);
+}
+
+
+/*-----------------PORTADA------*/
+.portada-esc{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    z-index: 12;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/fondo.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: none;
+}
+
+.logo-esc img{
+    z-index: 11;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    
+}
+
+
+
+.portada-esc .moon img{
+    top: 80%;
+}
+
+
+@keyframes moverMoon {
+    0%{ top: 70%;
+        left: 110%;}
+    100%{ top: 80%;
+        left: 80%;}
+}
+
+.portada-esc .fish-space img{
+    top: 50%;
+}
+
+
+@keyframes moverFish {
+    0%{
+        left: 110%;}
+    100%{
+        left: 70%;}
+}
+.portada-esc .fito img{
+    top: 40%;
+}
+
+@keyframes volar {
+    0%{top: -20%;left: -80%;}
+    100%{  top: 40%;
+        left: 10%;}
+}
+
+
+
+    /*--------------------------------------disc--------------------*/
+
+.disc{ 
+    height: 100vh;
+ 
+}
+
+
+
+.disc-title{
+    font-size: 2em;
+}
+
+
+.listen-spotify {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    z-index: 20;
+    width: 40%;
+}
+
+.CD-cortejo .cd-tapa img, .CD-furor .cd-tapa img, .CD-nuevo .cd-tapa img{
+    box-shadow: 2px 2px 2px rgba(249, 35, 94, 0.2);
+} 
+
+
+
+/* --------------------------VIDEOS--------------------------------------- */
+.videos{
+    height: 200vh;
+}
+
+
+
+.videos .cartel-video{
+    background-image:url("images/aHOJA-PAPEL-SMALL.png");
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    border: none;
+    width: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: rgba(249, 35, 94, 0.8);
+    text-shadow: 2px 2px rgba(0, 17, 255, 0.8);
+    text-align: center;
+}
+
+.videos .padre{
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    height: 60%;
+}
+.videos .padre .iframegalery{
+    width: 100%;
+    height: 100%;
+}
+
+.videos .lateral {
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 0%;
+    width: 100%;
+    height: 90%;
+}
+
+.videos .lateral .iframelateral{
+    width: 100%;
+    height: 30%;
+}
+
+.imgvideo{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+/*------------------------------------fechas-----------------------------------*/
+.card{
+    height: 25vh;
+}
+.card img{
+    display: none;
+}
+
+.fechas .fechas-titulo{
+    padding-top: 10%;
+    font-size: 2em;
+}
+
+.contenedor-calendario{
+    padding: 1%;
+}
+
+.card-fecha .boton-ticket{
+    opacity: 1;
+    width: 100%;
+    top: 30%;
+}
+
+.card-fecha .boton-ticket a{
+    
+    font-size: 0.5em;}
+
+.card-fecha .boton-ticket:hover{
+    opacity: 1;
+}
+
+.card-fecha{
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.5em;
+}
+
+
+/*------------------------------------------------FOOTER--------------------------------*/
+
+footer{
+    font-size: 30%;   
+}
+
+
+}
