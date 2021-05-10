@@ -21,7 +21,7 @@ body{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo.jpg");
+    background-image: url("images/fondo.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -540,7 +540,7 @@ footer{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo.jpg");
+    background-image: url("images/fondo.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -735,7 +735,7 @@ footer{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo.jpg");
+    background-image: url("images/fondo.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
