@@ -19,7 +19,7 @@ body{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo.png");
+    background-image: url("images/fondo-av.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -445,7 +445,7 @@ footer{
 
 /*-------------------------------------------Acordes---------------------------------*/
 .body-chords{
-    background-image: url(images/fondo.png);
+    background-image: url(i"mages/fondo.png");
 }
 
 
@@ -539,7 +539,7 @@ footer{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo.png");
+    background-image: url("images/fondo-av.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -734,7 +734,7 @@ footer{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo.png");
+    background-image: url("images/fondo-av.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
