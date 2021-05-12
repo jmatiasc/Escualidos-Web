@@ -21,7 +21,7 @@ body{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo-av.png");
+    background-image: url("images/fondo.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -446,7 +446,7 @@ footer{
 
 /*-------------------------------------------Acordes---------------------------------*/
 .body-chords{
-    background-image: url("images/fondo-av.png");
+    background-image: url("images/fondo.png");
 }
 
 .body-chords,.nav-link {
@@ -486,6 +486,7 @@ footer{
 }
 
 .img-chrods img{
+    padding: 0.2%;
     width: 5%;
 }
 
@@ -537,7 +538,7 @@ footer{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo-av.png");
+    background-image: url("images/fondo.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -731,6 +732,7 @@ footer{
 }
 
 .img-chrods img{
+    padding: 1%;
     width: 20%;
     margin-bottom: 3%;
 }
@@ -784,7 +786,7 @@ footer{
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url("images/fondo-av.png");
+    background-image: url("images/fondo.png");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -993,6 +995,7 @@ footer{
 }
 
 .img-chrods img{
+    padding: 1%;
     width: 10%;
     margin-bottom: 3%;
 }

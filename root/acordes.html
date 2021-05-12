@@ -11,7 +11,7 @@
 </head>
 <body class="body-chords">
 
-  <nav class="navbar navbar-expand-lg navbar-expand-lg navbar-dark" style=" z-index: 15;width: 100%;">
+  <nav class="navbar navbar-expand-lg navbar-expand-lg navbar-dark" >
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img style="width: 50px;" src="images/logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,22 +20,22 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav d-flex justify-content-center" style="width: 100%;">
             <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link " aria-current="page" href="index.html"><img src="images/H o m e.png" alt=""></a>
+                <a class="nav-link " aria-current="page" href="index.html" style="width: 100%;"><img style="width: 100%;"src="images/H o m e.png" alt=""></a>
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link" href="index.html#fechas-tab"><img src="images/F e c h a S.png" alt=""></a>
+                <a class="nav-link" href="#fechas-tab"><img style="width: 100%;"src="images/F e c h a S.png" alt=""></a>
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link" href="index.html#videos-tab"><img src="images/V i d e o s.png" alt=""></a>
+                <a class="nav-link" href="#videos-tab"><img style="width: 100%;"src="images/V i d e o s.png" alt=""></a>
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link " href="index.html#discos-tab" tabindex="-1" aria-disabled="true"><img src="images/D i s c o s.png" alt=""></a>
+                <a class="nav-link " href="#discos-tab" tabindex="-1" aria-disabled="true"><img style="width: 100%;" src="images/D i s c o s.png" alt=""></a>
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><img src="images/N o s o T r o s.png" alt=""></a>
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><img style="width: 100%;"src="images/N o s o T r o s.png" alt=""></a>
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <a class="nav-link " href="acordes.html" tabindex="-1" aria-disabled="true"><img src="images/A c o r d e s.png" alt=""></a>
+                <a class="nav-link " href="acordes.html" tabindex="-1" aria-disabled="true"><img style="width: 100%;"src="images/A c o r d e s.png" alt=""></a>
               </li>
         </ul>
       </div>
@@ -48,64 +48,63 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> <span class="titulo-nav-chords"><strong>Furor</strong></span></a>
         <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Burlar la ley</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Un rato más</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Perdón por nada</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Apagado</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">A veces</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Igual que perder</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Iluminate</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Los Salidores</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Noche de sábado</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Dormí</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Salió el sol</a></li><li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Esto soy</a></li><li>
+                <li><a class="dropdown-item" onclick="buscarTema('Burlar la ley')">Burlar la ley</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Un rato más')">Un rato más</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Perdón por nada')">Perdón por nada</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Apagado')">Apagado</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('A veces')">A veces</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Igual que perder')">Igual que perder</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Iluminate')">Iluminate</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Los Salidores')">Los Salidores</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Noche de sábado')">Noche de sábado</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Dormí')">Dormí</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Salió el sol')">Salió el sol</a></li><li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" onclick="buscarTema('Esto soy')">Esto soy</a></li><li>
         </ul>
       </li>
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><span class="titulo-nav-chords"><strong>Cortejo</strong></span></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Burlar la ley</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Un rato más</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Perdón por nada</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Apagado</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">A veces</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Igual que perder</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Iluminate</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Los Salidores</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Noche de sábado</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Dormí</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Salió el sol</a></li><li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Esto soy</a></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Fuegos De Artificio')" >Fuegos De Artificio</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Perfumes Citricos')">Perfumes Citricos</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Terminemos Los Dos Locos')">Terminemos Los Dos Locos</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('El Ritual')">El Ritual</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Dulce Innovador')">Dulce Innovador</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Activame Vos')">Activame Vos</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Un Farsante')">Un Farsante</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Mi Risa Ficcion')">Mi Risa Ficcion</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Pausa Al Tiempo')">Pausa Al Tiempo</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('El Esceptico')">El Esceptico</a></li><li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Cortejo')">Cortejo</a></li>
         </ul>
       </li>
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><span class="titulo-nav-chords"> <strong>CD-Nuevo</strong></span></a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Me quemo</a></li>
+          <li><a class="dropdown-item" onclick="buscarTema('Me quemo')">Me quemo</a></li>
         </ul>
       </li>
     </ul>
 
 
   <div class="cancion  row ">
-    <div class="titulo-cancion  col-12 col-sm-12 col-md-12">
-        <strong>Burlar la ley</strong>
+    <div class="titulo-cancion  col-12 col-sm-12 col-md-12" id="titulo-cancion">
+        <!-- <strong>Burlar la ley</strong> -->
     </div>
 
-    <div class="img-chrods col-12 col-sm-12 col-md-12">
+    <div class="img-chrods col-12 col-sm-12 col-md-12" id="img-chrods">
       <img src="images/Acordes/a.png" alt="">
       <img src="images/Acordes/a.png" alt="">
       <img src="images/Acordes/a.png" alt="">
       <img src="images/Acordes/a.png" alt="">
-      <img src="images/Acordes/a.png" alt="">
+      <img src="images/Acordes/a.png" alt=""> 
     </div>
 
 
     <div class="letra-cancion col-12 col-sm-12 col-md-6" id="letra-cancion">
-<b>   G        E </b>
+ <b>   G        E </b>
 Si te robo un beso 
 <b>   G        E </b>
 No me vas a denunciar 
@@ -152,11 +151,11 @@ Se van a entender, y cuando me
 <b>   G        E </b>
 Despierte nena tengo cosas que hacer 
 <b>   G        E </b>
-Una es burlar la ley. 
+Una es burlar la ley.  
         
     </div>
 
-    <div class="video-cancion col-12 col-sm-12 col-md-4">
+    <div class="video-cancion col-12 col-sm-12 col-md-4" id="video-cancion">
         <iframe  src="https://www.youtube.com/embed/fEq0nNdljac"  ></iframe>
     </div>
 </div>
@@ -168,7 +167,7 @@ Una es burlar la ley.
 
 
 
-<footer class="">
+<footer class="" style="position: absolute;bottom: 2;">
         <div class="container d-flex justify-content-center">
             <div class="logo-m14 d-flex justify-content-center">
                 <span>Copyright © 2020 - Diseño Web realizado por:</span>
