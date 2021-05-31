@@ -503,13 +503,13 @@ footer{
 }
 
 .video-cancion{
-    right: 18%;
+    right: 14%;
     top: 30%;
     position: fixed;
 }
 
 .video-cancion iframe{
-    width: 100%;
+    width: 90%;
     height: 40vh;
 }
 
