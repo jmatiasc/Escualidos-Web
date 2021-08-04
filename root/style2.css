@@ -1,0 +1,1070 @@
+body{
+    color: #3B3B3B;
+    font-family: Elephant;
+}
+
+
+@media (max-width:450px)  {
+    .no-cel{
+        display: none;
+    }
+
+    .log-nav{
+        animation: moverLoop 7s infinite;
+    }
+
+    @keyframes moverLoop {
+        33%{transform: rotate(5deg);}
+        66%{transform: rotate(-5deg);}
+    }
+
+    .item-bar{
+        margin-top: 15%;
+        font-size: 20px;
+        padding-left: 1%;
+    }
+
+    
+
+    .item-bar a{
+        
+        text-align: center;
+        color: #3B3B3B;
+        text-decoration: none;
+    }
+    
+    /* --------------------------portada------------------ */
+
+    .portada{
+        
+        overflow: hidden;
+        position: relative;
+        height: 90vh;
+    }
+
+    .vid-portada{
+        height: 90vh;
+        position: relative;
+    }
+
+    .vid-portada iframe{
+        height: 100%;
+        width: 200%;
+        opacity:0.41;
+        /*  efecto de blur */
+       -webkit-filter: blur(3px);
+       -moz-filter: blur(3px);
+       -o-filter: blur(3px);
+       -ms-filter: blur(3px);
+       filter: blur(2px);
+    }
+
+    .cp-portada{
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        padding: 0%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .tit-portada{
+        height: 90vh;
+        position: absolute;
+        display:grid;
+        place-items: center;
+    }
+
+    .tit-portada .f-p{
+        margin: 0%;
+        font-size: 35px;
+        line-height: 0.9;
+    }
+
+    .tit-portada .f-p #big-tit{
+        margin: 0%;
+        font-size: 46px;
+        font-weight: bolder ;
+        color: #732536;
+    }
+
+    .tit-portada .f-p .t-p{
+        margin: 0%;
+        font-size: 15px;
+        color: #707070;
+    }
+
+    .redes-portada{
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        
+    }
+
+    .item-portada  {
+        font-size: 25px;
+        float: left;
+        padding-left: 20%;
+        width: 50%;
+    }
+
+    
+
+    .item-portada a{
+        color: #732536;
+        text-align: center;
+        text-shadow: 2px 1px #020202a6;
+        text-decoration: none;
+        
+    }
+
+    
+
+/* ----------------------videoteca------------------------- */
+
+.videos {
+    overflow: hidden;
+    height: 60vh;
+}
+
+.videos .padre{
+
+    height:30vh;
+    width: 100%;
+}
+
+.videos .padre iframe{  
+    height:30vh;
+    width: 100%;
+}
+
+.videos .sel-vid{ 
+    position: relative;
+    overflow:scroll;
+    height:20vh;
+    width: 100%;
+}
+
+
+
+.cont-sel .cajavideo{
+    position: relative;
+    margin-bottom: 5%;
+    height:20vh;
+    width: 100%;
+}
+
+.cont-sel .cajavideo iframe{
+    height:20vh;
+    width: 100%;
+}
+
+
+.capatransparente{
+    position: absolute;
+    top: 0%;
+    height:20vh;
+    width: 100%;
+}
+
+
+
+/* ----------------------banda-------------- */
+.band .band-cont{
+    width: 100%;
+}
+
+.band .band-cont .band-tit{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    line-height: 1;
+    color: black;
+    font-size: 48px;
+    
+}
+.band .band-cont .band-text{
+    padding: 10%;
+    width: 100%;
+    overflow: scroll;
+    height: 80vh;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.band-int .cont-img{
+    margin-top: 5%;
+    height: 60vh;
+
+}
+
+.band-int .cont-img img{
+    height: 100%;
+}
+
+.band-int .cont-int-name{
+    margin-top: 5%;
+    font-size: 25px;
+    color: black;
+}
+
+.band-int .cont-int-roll {
+    font-size: 15px;
+}
+
+.discos{
+    height: 110vh;
+    
+    background-image: url("images/IMG-20201118-WA0029-op.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+
+
+/* -------------------------DISCOS-------------------- */
+.discos-tit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    line-height: 1;
+    color: black;
+    font-size: 48px;
+}
+
+
+.discos{
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.tapa-cd{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.cd-img {
+    padding-left: 16%;
+}
+
+
+.cd-vinilo{
+    position: absolute;
+    width: 200px;
+    animation:moverCds 3s 1;
+    transform:translatex(40%)
+}
+@keyframes moverCds {
+    0%{transform:translatex(0%)}
+    100%{transform:translatex(40%)}
+}
+
+
+.tapa-cd img,
+.cd-vinilo img{
+    height: 200px;
+    width: 100%;
+}
+
+.cd-temas{
+    margin-top: 10%;
+    padding-left: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+}
+
+.cd-tit{
+    font-style:normal;
+    color: #732536;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.redes-link{
+    margin-top: 5%;
+}
+.redes-link .red{
+    width: 77px;
+    margin-right: 4%;
+}
+
+.redes-link .red img{
+    width: 100%;
+}
+
+
+}
+/* -----------------------------------------------------------vista completa------------------------------ */
+@media (min-width:451px) and (max-width:1024px){
+    .bordes{
+        float: left;
+        width: 15%;
+        height: 100vh;
+    }
+
+    .log-nav{
+        animation: moverLoop 7s infinite;
+    }
+
+    @keyframes moverLoop {
+        33%{transform: rotate(5deg);}
+        66%{transform: rotate(-5deg);}
+    }
+    .cont-items{
+        margin-top: 5%;
+        width: 60%;
+    }
+
+    .item-bar{
+        font-size: 20px;
+        float: left;
+        padding-left: 1%;
+        width: 25%;
+    }
+
+    
+
+    .item-bar a{
+        
+        text-align: center;
+        color: #3B3B3B;
+        text-decoration: none;
+    }
+
+    .cuerpo{
+        float: left;
+        width: 70%;
+    }
+
+    .vid-portada iframe{
+        height: 150%;
+        width: 100%;
+        opacity:0.41;
+        /*  efecto de blur */
+       -webkit-filter: blur(3px);
+       -moz-filter: blur(3px);
+       -o-filter: blur(3px);
+       -ms-filter: blur(3px);
+       filter: blur(2px);
+    }
+
+    
+
+    /* -----------------------portada------------------------ */
+    .portada{
+        
+        overflow: hidden;
+        position: relative;
+        height: 90vh;
+    }
+
+    .vid-portada{
+        height: 90vh;
+        position: relative;
+    }
+
+    .vid-portada iframe{
+        height: 150%;
+        width: 100%;
+        opacity:0.41;
+        /*  efecto de blur */
+       -webkit-filter: blur(3px);
+       -moz-filter: blur(3px);
+       -o-filter: blur(3px);
+       -ms-filter: blur(3px);
+       filter: blur(2px);
+    }
+
+    .cp-portada{
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        padding: 0%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .tit-portada{
+        height: 90vh;
+        position: absolute;
+        display:grid;
+        place-items: center;
+    }
+
+    .tit-portada .f-p{
+        margin: 0%;
+        font-size: 35px;
+        line-height: 0.9;
+    }
+
+    .tit-portada .f-p #big-tit{
+        margin: 0%;
+        font-size: 46px;
+        font-weight: bolder ;
+        color: #732536;
+    }
+
+    .tit-portada .f-p .t-p{
+        margin: 0%;
+        font-size: 15px;
+        color: #707070;
+    }
+
+    .redes-portada{
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }
+
+    .item-portada  {
+        font-size: 40px;
+        float: left;
+        padding-left: 1%;
+        width: 25%;
+    }
+
+    
+
+    .item-portada a{
+        text-align: center;
+        color: #732536;
+        text-shadow: 2px 1px #020202a6;
+        text-decoration: none;
+        
+    }
+    
+    /* ----------------------videoteca------------------------- */
+    
+    .videos {
+        overflow: hidden;
+        height: 120vh;
+        
+    }
+    
+    .videos .padre{
+        height: 80vh;
+        width: 100%;
+    }
+    
+    .videos .padre iframe{  
+        height:80vh;
+        width: 100%;
+
+        
+    }
+    
+    .videos .sel-vid{ 
+        height: 40vh;
+        position: relative;
+        overflow:scroll;
+        width: 100%;
+    }
+    
+    
+    .cont-sel .cajavideo{
+        position: relative;
+        width: 100%;
+    }
+    
+    .cont-sel .cajavideo iframe{
+        height:40vh;
+        width: 100%;
+    }
+    
+    
+    .capatransparente{
+        position: absolute;
+        top: 0%;
+        height:40vh;
+        width: 100%;
+    }
+    
+    
+    
+    /* ----------------------banda-------------- */
+    .band .band-cont{
+        width: 100%;
+    }
+    
+    .team-car{
+        display: none;
+    }
+
+    .band .band-cont .band-tit{
+        margin-top: 10%;
+        width: 100%;
+        line-height: 1;
+        color: black;
+        font-size: 100px;
+        
+    }
+
+    .tit-hist{
+        float: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 25px;
+    }
+
+    .band .band-cont .band-text, .int-panel{
+        margin-top: 2%;
+        float: right;
+        width: 50%;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+    }
+    
+    .band-int .cont-img{
+        height: 30vh;
+    }
+
+    .band-int .cont-img img{
+        padding: 30px;
+        height: 100%;
+    }
+    
+    .band-int .cont-int-name{
+        font-size: 14px;
+        color: black;
+    }
+    
+    .band-int .cont-int-roll {
+        font-size: 10px;
+    }
+    
+   
+    
+    
+    /* -------------------------DISCOS-------------------- */
+    .discos{
+        height: 100vh;
+        background-image: url("images/IMG-20201118-WA0029-op.png");
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+    
+    }
+
+    .discos-tit{
+        text-align: right;
+        width: 100%;
+        line-height: 1;
+        color: black;
+        font-size: 100px;
+    }
+    
+    
+    .discos{
+        padding-top: 100px;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    
+    .tapa-cd{
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .cd-img {
+        margin-top: 5%;
+        width: 60%;
+        float: left;
+        padding-left: 16%;
+    }
+    
+    
+    .cd-vinilo{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        animation:moverCds 3s 1;
+        transform:translatex(40%)
+    }
+    @keyframes moverCds {
+        0%{transform:translatex(0%)}
+        100%{transform:translatex(40%)}
+    }
+    
+    
+    .tapa-cd img,
+    .cd-vinilo img{
+        height: 100px;
+        width: 100%;
+    }
+    
+    .cd-temas{
+        width: 40%;
+        float: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 10px;
+        color: black;
+    }
+    
+    .cd-tit{
+        font-family: Elephant;
+        font-style:normal;
+        color: #732536;
+        font-size: 20px;
+    }
+    
+    .redes-link{
+        margin-top: 5%;
+    }
+    .redes-link .red{
+        width: 50px;
+        margin-right: 4%;
+    }
+    
+    .redes-link .red img{
+        width: 100%;
+    }
+
+    /* ----------------------------galeria--------------------------- */
+
+    .galery-tit{
+        margin-top: 5%;
+        text-align: left;
+        width: 100%;
+        line-height: 1;
+        color: black;
+        font-size: 100px;
+    }
+
+    .imagen-galeria{
+        margin: 1%;
+        overflow: hidden;
+        padding: 0%;
+        height: 200px;   
+    }
+
+    .cont-img{
+        height: 100%;
+        width:  100%;
+    }
+    
+    .imagen-galeria img{
+        width: 100%;
+    }
+}
+
+@media (min-width:1025px){
+    .bordes{
+        float: left;
+        width: 15%;
+        height: 100vh;
+    }
+
+    .log-nav{
+        animation: moverLoop 7s infinite;
+    }
+
+    @keyframes moverLoop {
+        33%{transform: rotate(5deg);}
+        66%{transform: rotate(-5deg);}
+    }
+    .navbar-c{
+        height: 80px;
+        z-index: 9999;
+        background-color: rgba(115, 37, 54, 0.719);
+        position: fixed;
+        box-shadow: 3px 3px 3px rgba(66, 66, 66, 0.8);
+    }
+    .cont-items{
+        width: 60%;
+    }
+
+    .item-bar{
+        float: left;
+        text-align: center;
+        font-size: 30px;
+        padding-left: 5%;
+        width: 20%;
+    }
+
+    .item-bar:hover{
+        border-bottom: 3px solid #732536;
+        animation: upsborder 3s 1;
+    }
+    @keyframes upsborder {
+        0%{ width: 20%;}
+        100%{ width: 30%;}
+    }
+    
+
+    .item-bar a{
+        
+        text-align: center;
+        color: #fffdfd;
+        text-decoration: none;
+        
+    }
+
+    .navbar{
+        height: 100%;
+    }
+
+    .cuerpo{
+        float: left;
+        width: 70%;
+    }
+
+
+    /* ----------------------------portada------------------------ */
+    .portada{
+        
+        overflow: hidden;
+        position: relative;
+        height: 90vh;
+    }
+    
+    .vid-portada{
+        height: 90vh;
+        position: relative;
+    }
+    
+    .vid-portada iframe{
+        height: 150%;
+        width: 100%;
+        opacity:0.41;
+        /*  efecto de blur */
+       -webkit-filter: blur(3px);
+       -moz-filter: blur(3px);
+       -o-filter: blur(3px);
+       -ms-filter: blur(3px);
+       filter: blur(2px);
+    }
+    
+    .cp-portada{
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        padding: 0%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.247);
+    }
+    
+
+    .tit-portada{
+        height: 90vh;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .animacion-up{
+        animation: moverUp 7s 1;
+    }
+    
+    
+    @keyframes moverUp {
+        0%{bottom: -80%;}
+        100%{bottom: 0%;}
+    }
+
+    .animacion-up2{
+        animation: moverUp2 10s 1;
+    }
+    
+    
+    @keyframes moverUp2 {
+        0%{left: -80%;}
+        100%{left: 0%;}
+    }
+    
+    .tit-portada .f-p{
+        text-shadow: 2px 2px #ffffffa6;
+        position: absolute;
+        top:30%;
+        right: 20%;
+        margin: 0%;
+        font-size: 50px;
+        line-height: 0.9;
+    }
+    
+    .tit-portada .f-p #big-tit{
+        margin: 0%;
+        font-size: 70px;
+        font-weight: bolder ;
+        color: #732536;
+    }
+    
+    .tit-portada .f-p .t-p{
+        margin: 0%;
+        font-size: 20px;
+        color: #707070;
+    }
+
+
+    .redes-portada{
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }
+
+    .item-portada  {
+        font-size: 40px;
+        float: left;
+        padding-left: 1%;
+        width: 25%;
+    }
+
+    
+
+    .item-portada a{
+        text-align: center;
+        color: #732536;
+        text-shadow: 2px 1px #020202a6;
+        text-decoration: none;
+        
+    }
+    
+    
+    /* ----------------------videoteca------------------------- */
+    
+    .videos {
+        overflow: hidden;
+        height: 65vh;
+        
+    }
+    
+    .videos .padre{
+        
+        float: left;
+        height: 90%;
+        width: 50%;
+        margin-right: 5%;
+        box-shadow: 6px 6px 6px rgba(66, 66, 66, 0.2);
+    }
+    
+    .videos .padre iframe{  
+        height:100%;
+        width: 100%;
+
+        
+    }
+    
+    .videos .sel-vid{ 
+        height: 100%;
+        padding: 0%;
+        float: left;
+        position: relative;
+        overflow:scroll;
+        width: 40%;
+    }
+    
+    
+    .cont-sel{  
+        padding: 1%;
+    }
+    
+    .cont-sel .cajavideo{
+        position: relative;
+        padding-bottom: 5%;
+        height:18vh;
+        width: 100%;
+    }
+    
+    .cont-sel .cajavideo iframe{
+        height:18vh;
+        width: 100%;
+    }
+    
+    
+    .capatransparente{
+        position: absolute;
+        top: 0%;
+        height:18vh;
+        width: 100%;
+    }
+    
+    
+    
+    /* ----------------------banda-------------- */
+    .band .band-cont{
+        width: 100%;
+    }
+    
+    .team-car{
+        display: none;
+    }
+
+    .band .band-cont .band-tit{
+        margin-top: 10%;
+        width: 100%;
+        line-height: 1;
+        color: black;
+        font-size: 150px;
+        
+    }
+
+    .tit-hist{
+        float: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 25px;
+    }
+
+    .band .band-cont .band-text, .int-panel{
+        margin-top: 2%;
+        float: right;
+        width: 50%;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+    }
+    
+    .band-int .cont-img{
+        height: 30vh;
+    }
+
+    .band-int .cont-img img{
+        padding: 30px;
+        height: 100%;
+    }
+    
+    .band-int .cont-int-name{
+        font-size: 14px;
+        color: black;
+    }
+    
+    .band-int .cont-int-roll {
+        font-size: 10px;
+    }
+    
+   
+    
+    
+    /* -------------------------DISCOS-------------------- */
+    .discos{
+        height: 90vh;
+        background-image: url("images/IMG-20201118-WA0029-op.png");
+        background-size: contain; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+    
+    }
+
+    .discos-tit{
+        text-align: right;
+        width: 100%;
+        line-height: 1;
+        color: black;
+        font-size: 150px;
+    }
+    
+    
+    .discos{
+        padding-top: 100px;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    
+    .tapa-cd{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .cd-img {
+        
+        margin-top: 5%;
+        width: 60%;
+        float: left;
+        padding-left: 16%;
+    }
+    
+    
+    .cd-vinilo{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        animation:moverCds 3s 1;
+        transform:translatex(40%)
+    }
+    @keyframes moverCds {
+        0%{transform:translatex(0%)}
+        100%{transform:translatex(40%)}
+    }
+    
+    
+    .tapa-cd img,
+    .cd-vinilo img{
+        
+        height: 300px;
+        width: 100%;
+    }
+    
+    
+    .tapa-cd img{
+        box-shadow: 6px 6px 6px rgba(66, 66, 66, 0.514);
+    }
+    .cd-temas{
+        margin-top: 5%;
+        width: 40%;
+        float: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .cd-tit{
+        font-family: Elephant;
+        font-style:normal;
+        color: #732536;
+        font-size: 40px;
+    }
+    
+    .redes-link{
+        margin-top: 5%;
+    }
+    .redes-link .red{
+        width: 150px;
+        margin-right: 4%;
+    }
+    
+    .redes-link .red img{
+        width: 100%;
+    }
+
+    /* ----------------------------galeria--------------------------- */
+
+    .galery-tit{
+        margin-top: 5%;
+        text-align: left;
+        width: 100%;
+        line-height: 1;
+        color: black;
+        font-size: 150px;
+    }
+
+    .imagen-galeria{
+        margin: 1%;
+        overflow: hidden;
+        padding: 0%;
+        height: 200px;   
+    }
+
+    .cont-img{
+        height: 100%;
+        width:  100%;
+    }
+    
+    .imagen-galeria img{
+        width: 100%;
+    }
+}

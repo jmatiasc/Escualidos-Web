@@ -210,7 +210,16 @@
         videoPage.innerHTML = letrasCanciones[cancion].video;
     }
 
+    const vidClick = (cancion) =>{
+        const tituloPage = document.getElementById("iframeVid");
+        const poner = ' <iframe  src="https://'+cancion+'"></iframe> <div class="capatransparente" onclick="vidClick('+cancion+')"></div>';
+
+        tituloPage.innerHTML = poner;
+
+    }
+
+
     buscarTema("Esto soy");
 
-
+   
 
