@@ -218,6 +218,11 @@
 
     }
 
+    const cerrar = () =>{
+        const pop = document.getElementById("popUp");
+        pop.setAttribute('class','cerrar');
+    }
+
 
     buscarTema("Esto soy");
 
