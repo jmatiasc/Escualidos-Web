@@ -27,7 +27,8 @@
 
 body{background-color: rgb(236, 236, 236);
     color: #3B3B3B;
-    font-family: Elephant;
+    font-family: 'Roboto Slab', serif;
+     /* Elephant; */
 }
 
 .img-fond{
@@ -250,8 +251,9 @@ body{background-color: rgb(236, 236, 236);
     width: 100%;
     overflow: scroll;
     height: 80vh;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Roboto Slab', serif;
     font-style: italic;
     font-size: 22px;
 }
@@ -267,6 +269,7 @@ body{background-color: rgb(236, 236, 236);
 }
 
 .band-int .cont-int-name{
+    font-style:normal;
     margin-top: 5%;
     font-size: 25px;
     color: black;
@@ -336,7 +339,8 @@ body{background-color: rgb(236, 236, 236);
 .cd-temas{
     margin-top: 10%;
     padding-left: 25%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Roboto Slab', serif;
     font-style: italic;
     font-size: 15px;
     color: black;
@@ -345,7 +349,8 @@ body{background-color: rgb(236, 236, 236);
 .cd-tit{
     font-style:normal;
     color: #732536;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Roboto Slab', serif;
     font-size: 40px;
 }
 
@@ -660,7 +665,8 @@ body{background-color: rgb(236, 236, 236);
 
     .tit-hist{
         float: left;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-family: 'Roboto Slab', serif;
         font-style: italic;
         font-size: 25px;
     }
@@ -669,8 +675,9 @@ body{background-color: rgb(236, 236, 236);
         margin-top: 2%;
         float: right;
         width: 50%;
-        text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-family: 'Roboto Slab', serif;
         font-style: italic;
         font-size: 15px;
     }
@@ -685,6 +692,7 @@ body{background-color: rgb(236, 236, 236);
     }
     
     .band-int .cont-int-name{
+        font-style:normal;
         font-size: 14px;
         color: black;
     }
@@ -940,8 +948,8 @@ body{background-color: rgb(236, 236, 236);
         animation: upsborder 3s 1;
     }
     @keyframes upsborder {
-        0%{ width: 20%;}
-        100%{ width: 30%;}
+        0%{ width: 15%;}
+        100%{ width: 20%;}
     }
     
 
@@ -1153,7 +1161,7 @@ body{background-color: rgb(236, 236, 236);
 
     .tit-hist{
         float: left;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Roboto Slab', serif;
         font-style: italic;
         font-size: 25px;
     }
@@ -1162,8 +1170,8 @@ body{background-color: rgb(236, 236, 236);
         margin-top: 2%;
         float: right;
         width: 50%;
-        text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+        font-family: 'Roboto Slab', serif;
         font-style: italic;
         font-size: 15px;
     }
@@ -1189,6 +1197,7 @@ body{background-color: rgb(236, 236, 236);
     
 
     .band-int .cont-int-name{
+        font-style:normal;
         font-size: 14px;
         color: black;
     }
@@ -1276,7 +1285,7 @@ body{background-color: rgb(236, 236, 236);
     }
     
     .cd-tit{
-        font-family: Elephant;
+        font-family: 'Roboto Slab', serif;
         font-style:normal;
         color: #732536;
         font-size: 40px;
@@ -1320,6 +1329,8 @@ body{background-color: rgb(236, 236, 236);
     .imagen-galeria img{
         width: 100%;
     }
+
+    
 
 
 
@@ -1409,28 +1420,51 @@ body{background-color: rgb(236, 236, 236);
         height: 100px;
     }
     
-    @keyframes ovFly {
-        0%{
-            bottom: 7%;
-            left: 7%;}
-        25%{
-            bottom: 60%;
-            left: 40%;}    
-        50%{
-            bottom: 50%;
-            left: 90%;}
-        75%{
-            bottom: 0%;
-            left: 40%;}
-        100%{
-            bottom: 7%;
-            left: 7%;}
-
-        }
+   
 
     
 
 
 
 
+}
+
+
+/* -------------------------------- */
+@keyframes ovFly {
+    0%{
+        bottom: 7%;
+        left: 7%;
+        
+    }
+    25%{
+        bottom: 60%;
+        left: 40%;
+        transform: rotate(0.1turn);}    
+    50%{
+        bottom: 50%;
+        left: 90%;
+        transform: rotate(0turn);}
+    75%{
+        bottom: 0%;
+        left: 40%;
+        transform: rotate(0.1turn);}
+    100%{
+        bottom: 7%;
+        left: 7%;
+        transform: rotate(0turn);}
+
+    }
+
+/* ---------------------------------fechas--------------------------- */
+
+.btn-outline-danger{
+    color: #732536;
+    border-color: #732536;
+}
+
+.btn-outline-danger:hover{
+    color: #fff;
+    background-color: #732536;
+    border-color: #732536;
 }

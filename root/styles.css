@@ -1,3 +1,5 @@
+
+
 /*--------------------------------NAVBAR*/
 .navbar{
     background-color: rgba(50, 50, 50, 0.5);
@@ -37,9 +39,7 @@ body{
     animation: moverLoop 15s infinite;
 }
 
-.logo-esc img:hover{
-    transform: rotate(10deg);
-}
+
 
 
 @keyframes moverLoop {
@@ -56,18 +56,31 @@ body{
 
 
 .portada-esc .first-guitar img{
-    z-index: 11;
+    opacity: 0.7;
+    z-index: 9;
+    position: absolute;
+    bottom: 15%;
+    left: 33%;
+    width: 20%;
+    animation: mover1Guitar 7s 1;
+}
+
+.portada-esc .second-guitar img{
+    opacity: 0.7;
+    z-index: -3;
     position: absolute;
     bottom: 0%;
-    left: 25%;
-    width: 7%;
+    left: 55%;
+    width: 20%;
     animation: mover1Guitar 7s 1;
 }
 
 
 @keyframes mover1Guitar {
-    0%{bottom: -80%;}
-    100%{bottom: 0%;}
+     0%{
+        opacity: 0.0;}
+    100%{
+        opacity: 0.7;} 
 }
 .portada-esc .camino img{
     z-index: 10;  
@@ -83,6 +96,40 @@ body{
     0%{bottom: 130%;}
     100%{bottom: -1%;}
 }
+
+.portada-esc .taxis img{
+    position: absolute;
+    width: 20%;
+    left: 5%;
+    top: 20%;
+    z-index: 20; 
+    animation: moverTaxi 10s 1;
+}
+
+
+/* @keyframes moverTaxi {
+    0%{left: -50%;
+        top: 30%;
+        transform: rotate(0turn);}
+    50%{left: 40%;
+        top: 5%;
+        transform: rotate(-0.03turn);
+        }
+    100%{left: 105%;
+        top: 30%;
+        transform: rotate(0.1turn);}
+} */
+
+@keyframes moverTaxi {
+    0%{left: -50%;
+        top: 50%;
+        }
+    100%{left: 5%;
+        top: 20%;
+        }
+}
+
+
 .portada-esc .camino .singer{
     z-index: 7;
 }
@@ -590,6 +637,11 @@ footer{
 }
 
 
+.portada-esc .first-guitar img{
+        bottom: 5%;
+    }
+
+
 
     /*--------------------------------------disc--------------------*/
 
@@ -763,7 +815,7 @@ footer{
 
 }
 
-@media (min-width:451px) and (max-width:767px){
+@media (min-width:451px) and (max-width:1025px){
     body{
         background-image: url("images/mosaico.png");
         background-repeat: repeat; 
@@ -837,7 +889,9 @@ footer{
         left: 10%;}
 }
 
-
+.portada-esc .first-guitar img{
+    bottom: 5%;
+}
 
     /*--------------------------------------disc--------------------*/
 
