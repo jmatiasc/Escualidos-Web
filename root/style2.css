@@ -66,6 +66,7 @@
 
 body{
     background-image: url("images/banner.png") ;
+    background-color: #3B3B3B;
     background-repeat: repeat;
     color: #3B3B3B;
     font-family: 'Roboto Slab', serif;
@@ -522,6 +523,9 @@ body{
 }
 /* -----------------------------------------------------------vista completa------------------------------ */
 @media (min-width:451px) and (max-width:1024px){
+    .no-tablet{
+        display: none;
+    }
     .bordes{
         float: left;
         width: 15%;
@@ -992,17 +996,20 @@ body{
         66%{transform: rotate(-5deg);}
     }
     .navbar-c{
-        height: 80px;
+        /* height: 80px; */
         z-index: 9999;
-        background-color: rgba(115, 37, 54, 0.719);
+        /* background-color: rgba(115, 37, 54, 0.096); */
 
-        /* background-image: url("images/banner.png");
+        /* background-image: url("images/banner-nav.png");
         background-size: cover;
-        background-position: left;
-        background-repeat: no-repeat; */
+        background-position: top;
+        background-repeat: no-repeat;  */
         position: fixed;
-        box-shadow: 3px 3px 3px rgba(66, 66, 66, 0.8);
+        /* box-shadow: 3px 3px 3px rgba(66, 66, 66, 0.8); */
+        overflow:visible;
     }
+
+
     .cont-items{
         width: 60%;
     }
@@ -1028,21 +1035,34 @@ body{
 
 
 
-    .item-bar a{
+    /* .item-bar a{
 
         text-align: center;
         color: #fffdfd;
+
         text-decoration: none;
-    }
+    } */
      
-/* 
+
      .item-bar a {
         text-align: center;
         color: #ffffff;
-        text-shadow: 1px 1px rgb(104, 104, 104);
+        text-shadow: 3px 3px rgb(0, 0, 0);
         text-decoration: none;
         font-weight: 900;
-    } */
+    } 
+
+    .img-fond2{
+        z-index: -10;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+    }
+
+    .img-fond2 img{
+        width: 100%;
+    }
 
 
 
