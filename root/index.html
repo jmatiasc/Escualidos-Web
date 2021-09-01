@@ -137,37 +137,53 @@
                 <img src="images/logo-bar.png" alt="" style="width:30vh;margin: 3%; ">
             </div>
     
-            <div class=" d-flex justify-content-center" style="width:100%;margin: 1%; font-size: 50px;color: white;">
+            <div class="popup-tit d-flex justify-content-center" >
                 Proximas fechas
              </div>
     
-            <div class="cont-dates">
-                <div>
-                    <div class="card " >
-                        <div class="card-body ">
-                            <div class="">
-                                <div class="card-title d-flex justify-content-center" ><strong>22 de septiembre</strong></div>
-                                <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/nikkyoficialok/" style="text-decoration: none; color: #732536;"target="_blank" >Nikky</a> - La Plata</strong> </div>
-                                <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div>
-                                <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="https://www.instagram.com/nikkyoficialok/" class="btn btn-outline-danger " target="_blank"><strong>Comprar entrada</strong></a></div>
+             <div class="cont-dates ">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card card-dates" >
+                            <div class="card-body ">
+                                <div class="">
+                                    <div class="card-title d-flex justify-content-center" ><strong>22 de septiembre</strong></div>
+                                    <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/nikkyoficialok/" style="text-decoration: none; color: #061905;" target="_blank">Nikky</a> - La Plata</strong> </div>
+                                    <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div>
+                                    <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="https://www.instagram.com/nikkyoficialok/" class="btn btn-outline-danger " target="_blank"><strong>Comprar entrada</strong></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
     
-                <div>
-                    <div class="card " >
-                        <div class="card-body ">
-                            <div class="">
-                                <div class="card-title d-flex justify-content-center" ><strong>5 de noviembre </strong></div>
-                                <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/rockinmusicbar/" style="text-decoration: none; color: #732536;" target="_blank">Rockin Music Bar</a> - Buenos Aires</strong> </div>
-                                <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div>
-                                <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="https://www.instagram.com/rockinmusicbar/" class="btn btn-outline-danger " target="_blank"><strong>Comprar entrada</strong></a></div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card card-dates" >
+                            <div class="card-body ">
+                                <div class="">
+                                    <div class="card-title d-flex justify-content-center" ><strong>5 de noviembre </strong></div>
+                                    <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/rockinmusicbar/" style="text-decoration: none; color: #061905;" target="_blank">Rockin Music Bar</a> - Buenos Aires</strong> </div>
+                                    <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div> 
+                                    <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="#" class="btn btn-outline-danger " target="_blank"><strong>Proximamente</strong></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div> 
+
+    <div class="cerrar" id="popUpImg">
+        <div class="popup-sub-img d-flex justify-content-center" >
+                <div class="x-cerrar-img" onclick="cerrarImg()" >
+                    x
+                </div>
+    
+                <div class="imgPopCont" id="imgPopCont">
+                    <img src="images/galeria/20201118_115928.jpg " alt="">
+                </div>
+    
+            
         </div>
     </div>
 
@@ -176,31 +192,36 @@
         <div class="row">
 
             <div class="discos-tit mt-5 mb-2 plpr" id="fechas">
-                <div style="border-bottom: 15px solid #732536;">Fechas</div>
+                <div >Fechas  <!--style="border-bottom: 15px solid #732536;"-->
+                    <div style="width: 100%;background-image: url('images/banner-nav.png');height: 15px;">                        
+                    </div>
+                </div>
             </div>
           
-            <div class="cont-dates">
-                <div>
-                    <div class="card " >
-                        <div class="card-body ">
-                            <div class="">
-                                <div class="card-title d-flex justify-content-center" ><strong>22 de septiembre</strong></div>
-                                <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/nikkyoficialok/" style="text-decoration: none; color: #732536;" target="_blank">Nikky</a> - La Plata</strong> </div>
-                                <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div>
-                                <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="https://www.instagram.com/nikkyoficialok/" class="btn btn-outline-danger " target="_blank"><strong>Comprar entrada</strong></a></div>
+            <div class="cont-dates ">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card card-dates" >
+                            <div class="card-body ">
+                                <div class="">
+                                    <div class="card-title d-flex justify-content-center" ><strong>22 de septiembre</strong></div>
+                                    <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/nikkyoficialok/" style="text-decoration: none; color: #061905;" target="_blank">Nikky</a> - La Plata</strong> </div>
+                                    <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div>
+                                    <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="https://www.instagram.com/nikkyoficialok/" class="btn btn-outline-danger " target="_blank"><strong>Comprar entrada</strong></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div>
-                    <div class="card " >
-                        <div class="card-body ">
-                            <div class="">
-                                <div class="card-title d-flex justify-content-center" ><strong>5 de noviembre </strong></div>
-                                <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/rockinmusicbar/" style="text-decoration: none; color: #732536;" target="_blank">Rockin Music Bar</a> - Buenos Aires</strong> </div>
-                                <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div>
-                                <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="https://www.instagram.com/rockinmusicbar/" class="btn btn-outline-danger " target="_blank"><strong>Comprar entrada</strong></a></div>
+    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card card-dates" >
+                            <div class="card-body ">
+                                <div class="">
+                                    <div class="card-title d-flex justify-content-center" ><strong>5 de noviembre </strong></div>
+                                    <div class="card-text d-flex justify-content-center" ><strong><a href="https://www.instagram.com/rockinmusicbar/" style="text-decoration: none; color: #061905;" target="_blank">Rockin Music Bar</a> - Buenos Aires</strong> </div>
+                                    <div class="card-text d-flex justify-content-center" ><strong>22:00hs</strong></div> <!--https://www.instagram.com/rockinmusicbar/-->
+                                    <div class="d-flex justify-content-center boton-ticket" style="width: 100%;"><a href="#" class="btn btn-outline-danger " target="_blank"><strong>Proximamente</strong></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -210,11 +231,19 @@
             <div class="band plpr" id="banda">
                 <div class="band-cont ">
                     <div class="band-tit  mb-5">
-                        <div style="border-bottom: 15px solid #732536;">Banda</div>
+                                <!-- <div style="border-bottom: 15px solid #732536;">Banda</div> -->
+                        <div >
+                            Banda  
+                            <div style="width: 100%;background-image: url('images/banner-nav.png');height: 15px;">                        
+                            </div>
+                        </div>
                     </div>
 
                     <div class="tit-hist no-cel">
-                            <div style="border-bottom: 5px solid #732536;">Nosotros</div>
+                            <div >Nosotros
+                                <div style="width: 100%;background-image: url('images/banner-nav.png');height: 5px;">                        
+                                </div>
+                            </div>
                         
                     </div>
     
@@ -245,7 +274,11 @@
                     </div>
 
                     <div class="tit-hist no-cel" style="margin-top:5%;">
-                        <div style="border-bottom: 5px solid #732536;">La música</div>
+                        
+                            <div >La música
+                            <div style="width: 100%;background-image: url('images/banner-nav.png');height: 5px;">                        
+                            </div>
+                        </div>
                     </div>
 
                     <div class="int-panel no-cel">
@@ -460,7 +493,11 @@
             </div>
 
             <div class="discos-tit mt-5 mb-2 plpr" id="discos">
-                <div style="border-bottom: 15px solid #732536;">Discos</div>
+                <!-- <div style="border-bottom: 15px solid #732536;">Discos</div> -->
+                <div >Discos  <!--style="border-bottom: 15px solid #732536;"-->
+                    <div style="width: 100%;background-image: url('images/banner-nav.png');height: 15px;">                        
+                    </div>
+                </div>
             </div>
             
             <div class="discos " >
@@ -483,8 +520,8 @@
             
                             <div class="cd-temas col-12 col-sm-0 col-md-0 col-lg-2 col-xl-2 transicion-arriba">
                                     <div class="cd-tit transicion-arriba">
-                                    FUROR  <br>
-                                </div>
+                                         FUROR  <br>
+                                     </div>
                                     1-Burlar la ley <br>
                                     2-Un rato más<br>
                                     3-Perdón por nada<br>
@@ -576,81 +613,86 @@
    
             <div class="no-cel " id="galeria">
                     <div class="galery-tit  mb-5 plpr">
-                            <div style="border-bottom: 15px solid #732536;">Galería</div>
+                            
+                            <div>
+                                Galería  
+                                <div style="width: 100%;background-image: url('images/banner-nav.png');height: 15px;">                        
+                                </div>
+                            </div>  
                     </div>
 
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false" >
                         <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row d-flex justify-content-center" >
-                                <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba" >
+                                    <div class="cont-img" onclick="openImage('images/galeria/20201118_115928.jpg')">
                                         <img src="images/galeria/20201118_115928.jpg " alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/20210226_102500.jpg')">
                                         <img src="images/galeria/20210226_102500.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3  transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/20210228_210205.jpg')">
                                         <img src="images/galeria/20210228_210205.jpg" alt="">
                                     </div>
                                 </div>
                                 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0031.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0031.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0084.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0084.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3  transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0087.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0087.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0088.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0088.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0089.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0089.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0090.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0090.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0091.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0091.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0102.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0102.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0107.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0107.jpg" alt="">
                                     </div>
                                 </div>
@@ -660,73 +702,73 @@
                         <div class="carousel-item">
                             <div class="row d-flex justify-content-center">
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0113.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0113.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0120.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0120.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0123.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0123.jpg" alt="">
                                     </div>
                                 </div>
                                 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201024-WA0139.jpg')">
                                         <img src="images/galeria/IMG-20201024-WA0139.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0022.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0022.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0032.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0032.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3  ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0038.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0038.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0039.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0039.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0041.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0041.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3  ">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0047.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0047.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0051.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0051.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img" onclick="openImage('images/galeria/IMG-20201025-WA0054.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0054.jpg" alt="">
                                     </div>
                                 </div>
@@ -736,73 +778,73 @@
                         <div class="carousel-item">
                             <div class="row d-flex justify-content-center">
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201025-WA0059.jpg')">
                                         <img src="images/galeria/IMG-20201025-WA0059.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201103-WA0057.jpg')">
                                         <img src="images/galeria/IMG-20201103-WA0057.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3  transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201103-WA0067.jpg')">
                                         <img src="images/galeria/IMG-20201103-WA0067.jpg" alt="">
                                     </div>
                                 </div>
                                 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201103-WA0070.jpg')">
                                         <img src="images/galeria/IMG-20201103-WA0070.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201103-WA0074.jpg')">
                                         <img src="images/galeria/IMG-20201103-WA0074.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3  transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201103-WA0080.jpg')">
                                         <img src="images/galeria/IMG-20201103-WA0080.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba ">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201103-WA0088.jpg')">
                                         <img src="images/galeria/IMG-20201103-WA0088.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201103-WA0100.jpg')">
                                         <img src="images/galeria/IMG-20201103-WA0100.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201113-WA0065.jpg')">
                                         <img src="images/galeria/IMG-20201113-WA0065.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3  ">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201118-WA0011.jpg')">
                                         <img src="images/galeria/IMG-20201118-WA0011.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 transicion-arriba">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201118-WA0018.jpg')">
                                         <img src="images/galeria/IMG-20201118-WA0018.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="imagen-galeria col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
-                                    <div class="cont-img">
+                                    <div class="cont-img"  onclick="openImage('images/galeria/IMG-20201118-WA0033.jpg')">
                                         <img src="images/galeria/IMG-20201118-WA0033.jpg" alt="">
                                     </div>
                                 </div>
@@ -822,7 +864,12 @@
             </div>
 
             <div class="discos-tit mt-5 mb-2 plpr" id="videos">
-                <div style="border-bottom: 15px solid #732536;">Videoteca</div>
+                <!-- <div style="border-bottom: 15px solid #732536;">Videoteca</div> -->
+                <div>
+                    Videoteca  <!--style="border-bottom: 15px solid #732536;"-->
+                    <div style="width: 100%;background-image: url('images/banner-nav.png');height: 15px;">                        
+                    </div>
+                </div> 
             </div>
     
             <div class="videos  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 plpr" >

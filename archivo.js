@@ -191,22 +191,21 @@
         var tituloPage = document.getElementById("titulo-cancion");
         tituloPage.innerHTML = letrasCanciones[cancion].nombre;
 
-        var imgChords = document.getElementById("img-chrods");
+        let imgChords = document.getElementById("img-chrods");
 
-        var arrayChords = letrasCanciones[cancion]["acordes"];
+        let arrayChords = letrasCanciones[cancion]["acordes"];
 
         var chords = "";
         for(let i = 0 ;  i< arrayChords.length ; i++){
             chords = chords+letrasCanciones[cancion].acordes[i];
         }
 
-        imgChords.innerHTML = chords;    
-        // console.log(chords);
+        imgChords.innerHTML = chords;   
 
-        var letraPage = document.getElementById("letra-cancion");
+        let letraPage = document.getElementById("letra-cancion");
         letraPage.innerHTML = letrasCanciones[cancion].letra;
 
-        var videoPage = document.getElementById("video-cancion");
+        let videoPage = document.getElementById("video-cancion");
         videoPage.innerHTML = letrasCanciones[cancion].video;
     }
 
@@ -223,8 +222,24 @@
         pop.setAttribute('class','cerrar');
     }
 
+    const cerrarImg = () =>{
+        const pop = document.getElementById("popUpImg");
+        pop.setAttribute('class','cerrar');
+    }
 
-    buscarTema("Esto soy");
+    const openImage = (imagen) =>{
+
+        const contImg = document.getElementById("imgPopCont");
+        const poner = ' <img src=" '+imagen+' ">';
+        contImg.innerHTML = poner;
+
+        const pop = document.getElementById("popUpImg");
+        pop.setAttribute('class','popupImg');
+    }
+
+
+
+    // buscarTema("Esto soy");
 
    
 
